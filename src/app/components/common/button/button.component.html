@@ -1,0 +1,11 @@
+<!-- button.component.html -->
+<button [class]="cssClass" (click)="handleClick()" [disabled]="disabled" [type]="type" matTooltip="toolTipMessage"
+    matTooltipPosition="above">
+    <ng-container *ngIf="iconClass && iconPosition === 'left'">
+        <i class="material-icons">{{ iconClass }}</i>
+    </ng-container>
+    {{ label }}
+    <ng-container *ngIf="iconClass && iconPosition === 'right'">
+        <i class="material-icons">{{ iconClass }}</i>
+    </ng-container>
+</button>

@@ -1,0 +1,22 @@
+header {
+  width: 100%;
+  z-index: 1111;
+}
+
+.header-navbar {
+  display: flex;
+  background-color: #227098;
+  min-height: 60px;
+  height: 100%;
+  max-height: 58px;
+  width: 100%;
+  position: relative;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px;
+}
+
+.header-navbar img {
+  width: 200px;
+  height: 60px;
+}
