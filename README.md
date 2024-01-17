@@ -1,2 +1,2 @@
 # angular
-This project contains angular app codebase
+This project contains angular app codebase.
